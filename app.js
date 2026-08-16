@@ -6,7 +6,7 @@ const ADMIN_PIN = "140909";                // CHANGE this PIN
 const PRODUCTS = [
   {id:1,name:"Cream Linen Trousers",price:699,size:"M",condition:"Excellent",image:"file_000000001a40820bb31806519beb2fb9.png"},
   {id:2,name:"Black Double-Breasted Overcoat",price:1499,size:"M",condition:"Excellent",image:"file_00000000da8481fa86f2f6b7e9e4d300.png"},
-  {id:3,name:"Vintage Knit Sweater",price:899,size:"M",condition:"Very good",image:"https://images.unsplash.com/photo-1610652492500-ded49ceeb378?auto=format&fit=crop&w=800&q=80"}
+  {id:3,name:"premium brown leather jacket",price:1199,size:"M",condition:"Very good",image:"file_000000003c40820bbbdc94ccaa729a0f.png"}
 ];
 
 let products = JSON.parse(localStorage.getItem("thrifto_products") || "null") || PRODUCTS;
