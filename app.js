@@ -2,7 +2,6 @@
 const WHATSAPP_NUMBER = "918967427827"; // CHANGE to your WhatsApp number, e.g. 919876543210
 const UPI_ID = "8967427827@ybl";            // CHANGE to your UPI ID
 const ADMIN_PIN = "140909";                // CHANGE this PIN
-
 const PRODUCTS = [
   {id:3,name:"premium brown leather jacket",price:1199,size:"M",condition:"Very good",image:"file_000000003c40820bbbdc94ccaa729a0f.png"},
   {id:2,name:"Black Double-Breasted Overcoat",price:2000,size:"M",condition:"Excellent",image:"file_00000000da8481fa86f2f6b7e9e4d300.png"},
