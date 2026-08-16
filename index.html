@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The Thrifto Co.</title>
+  <meta name="description" content="Curated thrift clothing by The Thrifto Co.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#">the.thrifto.co</a>
+    <button class="cart-btn" onclick="openCart()">Bag <span id="cartCount">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">CURATED THRIFT • PAN INDIA SHIPPING</p>
+      <h1>Good clothes.<br><em>Second stories.</em></h1>
+      <p>Unique pre-loved pieces, carefully selected and ready for a new wardrobe.</p>
+      <a class="button" href="#shop">Shop the drop</a>
+    </section>
+
+    <section id="shop" class="shop">
+      <div class="section-head">
+        <div><p class="eyebrow">THE DROP</p><h2>Available now</h2></div>
+        <input id="search" type="search" placeholder="Search items..." oninput="renderProducts()">
+      </div>
+      <div id="products" class="grid"></div>
+    </section>
+
+    <section class="info">
+      <div><b>♻ Curated thrift</b><span>One-of-one & limited pieces</span></div>
+      <div><b>📦 Pan India</b><span>Shipping available across India</span></div>
+      <div><b>💳 UPI</b><span>Easy payment via UPI / PhonePe</span></div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>the.thrifto.co</strong>
+    <span>Thrift responsibly. Wear uniquely.</span>
+  </footer>
+
+  <div id="cart" class="drawer hidden">
+    <div class="drawer-card">
+      <div class="drawer-head"><h2>Your bag</h2><button onclick="closeCart()">×</button></div>
+      <div id="cartItems"></div>
+      <div class="total"><span>Total</span><b id="cartTotal">₹0</b></div>
+      <button class="button full" onclick="checkout()">Order via WhatsApp</button>
+      <button class="text-btn" onclick="payUPI()">Pay via UPI / PhonePe</button>
+      <p class="tiny">Replace the WhatsApp number and UPI ID in <b>app.js</b> before publishing.</p>
+    </div>
+  </div>
+
+  <button class="admin-fab" onclick="openAdmin()">✎</button>
+
+  <div id="admin" class="modal hidden">
+    <div class="admin-card">
+      <div class="drawer-head"><h2>Store editor</h2><button onclick="closeAdmin()">×</button></div>
+      <p class="tiny">This free static version saves edits in your browser. For edits that appear to every customer, update <b>PRODUCTS</b> in app.js and re-upload it to GitHub.</p>
+      <label>Admin PIN <input id="pin" type="password" placeholder="1234"></label>
+      <div id="adminPanel" class="hidden">
+        <div id="adminProducts"></div>
+        <button class="button full" onclick="addProduct()">+ Add product</button>
+        <button class="text-btn" onclick="resetProducts()">Reset to original products</button>
+      </div>
+      <button class="button full" onclick="unlockAdmin()">Unlock editor</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
