@@ -5,7 +5,7 @@ const ADMIN_PIN = "140909";                // CHANGE this PIN
 
 const PRODUCTS = [
   {id:1,name:"Cream Linen Trousers",price:699,size:"M",condition:"Excellent",image:"https://images.unsplash.com/photo-1506629905607-d9e297d3f5d6?auto=format&fit=crop&w=800&q=80"},
-  {id:2,name:"Black Double-Breasted Overcoat",price:1499,size:"M",condition:"Excellent",image:"https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=800&q=80"},
+  {id:2,name:"Black Double-Breasted Overcoat",price:1499,size:"M",condition:"Excellent",image:"https://drive.google.com/file/d/19seSXF7WEg893LvUs_DtUbJTp4KcP4w2/view?usp=drivesdk"},
   {id:3,name:"Vintage Knit Sweater",price:899,size:"M",condition:"Very good",image:"https://images.unsplash.com/photo-1610652492500-ded49ceeb378?auto=format&fit=crop&w=800&q=80"}
 ];
 
