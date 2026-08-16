@@ -1,5 +1,5 @@
 // THE THRIFTO CO. — store settings
-const WHATSAPP_NUMBER = "8967427827"; // CHANGE to your WhatsApp number, e.g. 919876543210
+const WHATSAPP_NUMBER = "918967427827"; // CHANGE to your WhatsApp number, e.g. 919876543210
 const UPI_ID = "8967427827@ybl";            // CHANGE to your UPI ID
 const ADMIN_PIN = "140909";                // CHANGE this PIN
 
