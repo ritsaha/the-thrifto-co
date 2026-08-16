@@ -1,7 +1,7 @@
 // THE THRIFTO CO. — store settings
-const WHATSAPP_NUMBER = "919999999999"; // CHANGE to your WhatsApp number, e.g. 919876543210
-const UPI_ID = "yourupi@upi";            // CHANGE to your UPI ID
-const ADMIN_PIN = "1234";                // CHANGE this PIN
+const WHATSAPP_NUMBER = "8967427827"; // CHANGE to your WhatsApp number, e.g. 919876543210
+const UPI_ID = "8967427827@ybl";            // CHANGE to your UPI ID
+const ADMIN_PIN = "140909";                // CHANGE this PIN
 
 const PRODUCTS = [
   {id:1,name:"Cream Linen Trousers",price:699,size:"M",condition:"Excellent",image:"https://images.unsplash.com/photo-1506629905607-d9e297d3f5d6?auto=format&fit=crop&w=800&q=80"},
