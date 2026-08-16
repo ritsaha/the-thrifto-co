@@ -7,7 +7,7 @@ const PRODUCTS = [
   {id:1,name:"Cream Linen Trousers",price:699,size:"M",condition:"Excellent",image:"file_000000001a40820bb31806519beb2fb9.png"},
   {id:2,name:"Black Double-Breasted Overcoat",price:2000,size:"M",condition:"Excellent",image:"file_00000000da8481fa86f2f6b7e9e4d300.png"},
   {id:3,name:"premium brown leather jacket",price:1199,size:"M",condition:"Very good",image:"file_000000003c40820bbbdc94ccaa729a0f.png"}
-  {id:4,name:"Vintage Leather-Type Jacket",price:999,size:"M",condition:"Excellent",image:"file_000000005c9481fa92b9f60f61e033a0.png"}
+  {id:4,name:"Vintage Leather-Type Jacket",price:999,size:"M",condition:"Excellent",image:"file_000000005c9481fa92b9f60f61e033a0.png"},
 ];
 
 let products = JSON.parse(localStorage.getItem("thrifto_products") || "null") || PRODUCTS;
